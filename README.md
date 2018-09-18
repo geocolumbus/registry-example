@@ -4,16 +4,17 @@
 
 ```
 git clone https://github.com/geocolumbus/registry-example.git
+cd registry-example
 npm install
 ```
 
-edit registry.js and put in 5 pieces of information:
+edit ```src/registry.js``` and put in 5 pieces of information:
  
-* WSKey Client ID (line 12)
-* WSKey Secret (line 13)
-* PrincipalID (line 18)
-* PrincipalIDNS (line 19)
-* AuthenticationInstitutionID (line 17)
+* WSKey Client ID
+* WSKey Secret
+* PrincipalID
+* PrincipalIDNS
+* AuthenticationInstitutionID
  
 Run the program
 
